@@ -1,0 +1,18 @@
+package com.test1;
+import java.io.IOException;
+import java.net.*;
+
+public class MyServer1 {
+	
+	public MyServer1()
+	{
+		try {
+			ServerSocket ss = new ServerSocket(9999);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+}
