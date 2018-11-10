@@ -28,9 +28,6 @@ public class MyClient1 {
 			InputStreamReader inputStreamReader = new InputStreamReader(socket.getInputStream());
 			BufferedReader bReader = new BufferedReader(inputStreamReader); // use Buffer
 			
-			String response = bReader.readLine();
-			System.out.println("Server reply : " + response);
-			
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		} catch (IOException e) {

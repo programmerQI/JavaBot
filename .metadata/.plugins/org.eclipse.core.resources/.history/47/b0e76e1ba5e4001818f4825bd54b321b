@@ -1,7 +1,5 @@
 package com.test1;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.*;
 
@@ -23,13 +21,6 @@ public class MyClient1 {
 			
 			//send message to server
 			pWriter.println("Hello!");
-			
-			// to read the data from the server
-			InputStreamReader inputStreamReader = new InputStreamReader(socket.getInputStream());
-			BufferedReader bReader = new BufferedReader(inputStreamReader); // use Buffer
-			
-			String response = bReader.readLine();
-			System.out.println("Server reply : " + response);
 			
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
