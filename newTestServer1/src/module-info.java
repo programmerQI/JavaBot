@@ -6,4 +6,5 @@
  *
  */
 module newTestServer1 {
+	requires java.desktop;
 }

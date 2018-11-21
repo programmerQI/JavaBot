@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.test1.MyServer1"/>
-    <fullyQualifiedTypeName name="java.net.Socket"/>
     <fullyQualifiedTypeName name="com.test1.MyClient1"/>
+    <fullyQualifiedTypeName name="com.sun.source.tree.WhileLoopTree"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.asm.sparc.SPARCAssembler.Br"/>
+    <fullyQualifiedTypeName name="com.test2.MyServer2"/>
+    <fullyQualifiedTypeName name="com.test2.MyClient2"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextArea"/>
+    <fullyQualifiedTypeName name="com.test3.MyServer3"/>
+    <fullyQualifiedTypeName name="javax.swing.JScrollPane"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="java.net.ServerSocket"/>
+    <fullyQualifiedTypeName name="jdk.javadoc.internal.doclets.toolkit.MemberSummaryWriter"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="jdk.internal.util.xml.impl.Input"/>
+    <fullyQualifiedTypeName name="com.test3.MyClient3"/>
+    <fullyQualifiedTypeName name="java.net.Socket"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>

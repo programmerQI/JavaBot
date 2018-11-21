@@ -6,4 +6,5 @@
  *
  */
 module newTestClient1 {
+	requires java.desktop;
 }
