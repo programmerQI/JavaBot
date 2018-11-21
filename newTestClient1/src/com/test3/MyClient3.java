@@ -1,5 +1,7 @@
 package com.test3;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -29,12 +31,13 @@ public class MyClient3 extends JFrame{
 	private BufferedReader bufferedReader;
 	
 	public int send() {
-		if(printWriter==null) {
+		if( printWriter == null || jTextField == null || jTextArea == null) {
 			return -1;
 		}
 		
 		String string = jTextField.getText();
 		printWriter.println(string);
+		jTextArea.append("Client: "+string+"\r\n");
 		
 		// auto clean JTestField
 		jTextField.setText("");
@@ -47,6 +50,17 @@ public class MyClient3 extends JFrame{
 			
 			socket = new Socket("127.0.0.1",9999);
 			
+			printWriter = new PrintWriter(socket.getOutputStream(),true);
+			inputStreamReader = new InputStreamReader(socket.getInputStream());
+			bufferedReader = new BufferedReader(inputStreamReader);
+			
+			while(true) {
+				
+				String string = bufferedReader.readLine();
+				System.out.println(string);
+				jTextArea.append("Server: "+string+"\r\n");
+				
+			}
 			
 			
 		} catch (UnknownHostException e) {
@@ -75,6 +89,18 @@ public class MyClient3 extends JFrame{
 		setSize(500, 300);
 		setTitle("Client");
 		setVisible(true);
+		
+		jButton.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				
+				System.out.println(send());
+				
+			}
+		});
+		
+		Connecting();
 	}
 	
 	

@@ -45,8 +45,11 @@ public class MyServer3 extends JFrame{
 			bufferedReader = new BufferedReader(inputStreamReader);
 			
 			while(true) {
+				
 				String string = bufferedReader.readLine();
-				jTextArea.append("Client: "+string);
+				System.out.println(string);
+				jTextArea.append("Client: "+string+"\r\n");
+				
 			}
 			
 			
@@ -57,7 +60,7 @@ public class MyServer3 extends JFrame{
 	}
 	
 	public int send() {
-		if(printWriter==null) {
+		if( printWriter == null || jTextField == null || jTextArea == null) {
 			return -1;
 		}
 		
@@ -99,6 +102,8 @@ public class MyServer3 extends JFrame{
 				
 			}
 		});
+		
+		Servering();
 	}
 	
 	public static void main(String[] args) {

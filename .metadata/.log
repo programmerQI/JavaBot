@@ -3146,3 +3146,183 @@ java.lang.NoClassDefFoundError: javax/annotation/PostConstruct
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1474)
+!SESSION 2018-11-21 12:34:35.600 -----------------------------------------------
+eclipse.buildId=4.9.0.I20180906-0745
+java.version=10.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-11-21 12:34:38.602
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-11-21 12:34:38.603
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-11-21 12:34:38.603
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateAttributesHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-11-21 12:34:38.604
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.RepairDuplicateItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-11-21 12:34:38.604
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.UnmarkItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-11-21 12:34:38.605
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.AutosizeColumnsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-11-21 12:34:38.605
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.ResetToDefaultHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-11-21 12:34:44.886
+!MESSAGE Removing part descriptor with the 'org.eclipse.mylyn.gerrit.dashboard.ui.views.GerritTableView' id and the 'Gerrit Dashboard' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-11-21 12:34:46.946
+!MESSAGE Removing part descriptor with the 'org.eclipse.mylyn.reviews.Explorer' id and the 'Review' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-11-21 12:34:47.264
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.api.tools.ui.views.apitooling.views.apitoolingview' id and the 'API Tools' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-11-21 12:34:47.358
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.runtime.RegistryBrowser' id and the 'Plug-in Registry' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-11-21 12:34:47.387
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.ui.PluginsView' id and the 'Plug-ins' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-11-21 12:34:47.388
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.ui.DependenciesView' id and the 'Plug-in Dependencies' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-11-21 12:34:47.389
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.ui.TargetPlatformState' id and the 'Target Platform State' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-11-21 12:34:47.390
+!MESSAGE Removing part descriptor with the 'org.eclipse.pde.ui.ImageBrowserView' id and the 'Plug-in Image Browser' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-11-21 12:34:47.391
+!MESSAGE Removing part descriptor with the 'org.eclipse.team.ccvs.ui.RepositoriesView' id and the 'CVS Repositories' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2018-11-21 12:34:47.391
+!MESSAGE Removing part descriptor with the 'org.eclipse.team.ccvs.ui.EditorsView' id and the 'CVS Editors' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-11-21 12:36:37.338
+!MESSAGE Full project indexing required:
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-11-21 12:39:01.757
+!MESSAGE Full project indexing required:
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+  [+] /usr/lib/jvm/jdk-11.0.1/lib/jrt-fs.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.base/java.lang.Thread.run(Thread.java:844)
